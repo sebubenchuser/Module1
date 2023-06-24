@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*,
+*:after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+
+/#### utility ####/
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items{
+ order: 2;
+ display: flex;
+}
+
+.menu-items li{
+ list-style: none;
+ margin-left: 1.5rem;
+ font-size: 1.8rem;
+}
+
+.logo{
+    order: 1;
+    font-size: 3rem;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+#register{
+    padding: 7rem 0;
+    background: rgb(226, 226, 226);
+}
+
+.register-container{
+    display: flex;
+    background: #fff;
+}
+
+.form-container{
+   
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+}
+
+
+
+.form-container h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.form-container a{
+    font-size: 1.2rem;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 22.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-primary{
+    color: #fff;
+    background: #16a083;
+}
+
+.table{
+    padding: 7rem 0;
+    display: flex;
+    background: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: auto;
+    padding: 3px;
+  }
+
+  .table-container{   
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+  }
